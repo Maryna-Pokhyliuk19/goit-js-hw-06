@@ -7,5 +7,5 @@ textInput.addEventListener("input", handleTextInputClick)
 
 function handleTextInputClick(event) {
     spanInput.textContent = textInput.value
-    // console.log(event.currentTarget.value)
+    //  console.log(event.currentTarget.value)
     }
