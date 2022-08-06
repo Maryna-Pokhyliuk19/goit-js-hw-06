@@ -11,7 +11,7 @@ function onFormSubmit(event) {
     const password = formElements.password.value
     
 
-    if (!mail && !password) {
+    if (!mail || !password) {
         console.log(alert`Все поля должны быть заполнены`)
         return
     }

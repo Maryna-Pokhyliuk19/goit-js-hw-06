@@ -8,7 +8,7 @@ textInput.addEventListener("input", handleTextInputClick)
 function handleTextInputClick() {
     spanInput.textContent = textInput.value
 
-    if (spanInput.value === '') {
+    if (spanInput.textContent === '') {
         spanInput.textContent = 'Anonymous'
     }
     
